@@ -1,0 +1,190 @@
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
+  font-family: Roboto,Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+
+
+
+a {
+
+  text-decoration: none;
+
+}
+
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+
+
+img {
+  border: 0;
+}
+
+
+/* normalize/rest 结束*/
+
+.main {
+  width: 980px;
+  height: 1386px;
+  padding: 0 44px 20px 44px;
+  margin: 0 auto;
+}
+
+.main > header {
+  border-bottom: 2px solid #938e8c;
+  margin-bottom: 0;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.main > header p {
+  margin: 0;
+}
+.main .head-ife {
+  display: block;
+  width: 110px;
+  height: 61px;
+  background-color: red;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 黑体;
+  vertical-align: bottom;
+}
+
+.main .head-time {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 12px;
+  color: #d45d5c;
+  font-family: 黑体;
+}
+
+.page-top img {
+  float: left;
+  display: block;
+}
+
+.page-top:after {
+  display: block;
+  content: "";
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.page-top-describ {
+  border-top: 2px solid #cc8091;
+  margin-left: 689px;
+}
+
+.page-top-describ > p:nth-child(1),.page-top-describ > p:nth-child(2) {
+  font-family: 微软雅黑;
+  font-size: 24px;
+  color: #000000;
+}
+
+.page-mid {
+  display: flex;
+}
+
+.page-mid article{
+  width: 200px;
+}
+
+.page-mid article + article {
+  margin-left: 15px;
+}
+
+.page-bottom .bottom-sub {
+  width: 415px;
+  float: left;
+}
+
+.page-bottom .bottom-sub img {
+  float: right;
+}
+
+.page-bottom .bottom-sub header {
+  border-bottom: 2px solid black;
+}
+
+.page-bottom .bottom-sub:after {
+  display: block;
+  content: "";
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+
+
+.page-bottom .bottom-main {
+  margin-left: 434px;
+}
+
+.bottom-main header {
+  position: relative;
+}
+
+.bottom-main header p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bottom-main article {
+  background-color: yellow;
+}
+
+.bottom-main:after {
+  display: block;
+  content: "";
+  visibility: hidden;
+  line-height: 0;
+  clear: both;
+}
+
+.page-bottom {
+  border-bottom: 1px solid #938e8c;
+}

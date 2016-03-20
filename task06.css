@@ -94,7 +94,6 @@ img {
   font-size: 12px;
   font-family: 黑体;
   line-height: 110px;
-  vertical-align: bottom;
 }
 
 .main .head-time {
@@ -113,8 +112,8 @@ img {
   background-image: url(./img/left-top.png);
   background-origin: border-box;
   border-left: 200px solid rgba(75, 184, 107, 0.5);
-  border-right: 200px solid rgba(204, 80, 91, 0.5) 
-  
+  border-right: 200px solid rgba(204, 80, 91, 0.5)
+
 }
 
 .page-top {
@@ -167,6 +166,7 @@ img {
   font: 55px 微软雅黑;
   color: #cc8091;
   margin-right: 10px;
+  line-height: 100%;
 }
 
 .page-top-describ p span {
@@ -174,24 +174,25 @@ img {
   font-size: 1.2em;
   font-family: 微软雅黑;
   display: block;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .page-mid article {
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    
+
     -webkit-column-width: 180px;
     -moz-column-width: 180px;
     column-width: 180px;
-    
+
     -webkit-column-fill:balance;
     -moz-column-fill: balance;
     column-fill: balance;
-    
+
     height: 260px;
     width: 200px;
+    margin-top: 10px;
 }
 
 .page-mid h2 {
@@ -228,7 +229,7 @@ img {
     color: #cc7680;
     font-style: italic;
     margin-left: 0.5em;
-    
+
 }
 
 .page-bottom .bottom-sub {
@@ -241,7 +242,7 @@ img {
     float: left;
     font: 70px 微软雅黑;
     margin: 10px;
-    
+
 }
 .bottom-sub img {
   float: right;
@@ -259,6 +260,12 @@ img {
   line-height: 1;
   color: #11456b;
   margin: 0;
+  word-break: break-all;
+}
+
+.bottom-sub h1 span {
+  font: italic bold 72px 黑体;
+  color: #f5e327;
 }
 
 .bottom-sub small {
@@ -272,6 +279,10 @@ img {
   font: 12px 宋体;
   color: #767777;
   line-height: 16px;
+}
+
+.bottom-sub p:first-of-type {
+  text-indent: 0;
 }
 
 .page-bottom .bottom-main {
@@ -375,7 +386,7 @@ img {
     font-size: 50px;
     font-style: normal;
     color: #d45d5c;
-    
+
 }
 
 .bottom-bottom > p::before {
@@ -383,7 +394,7 @@ img {
     top: 0;
     left: 10px;
   /*font-family: "宋体";？*/
-    
+
 }
 
 .bottom-bottom > p::after {
